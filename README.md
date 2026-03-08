@@ -1,14 +1,14 @@
-#North Carolina County-Level Poverty Analysis
+# North Carolina County-Level Poverty Analysis
 
 A data analysis project exploring county-level poverty patterns across North Carolina using Python-based data science tools. This project demonstrates a reproducible workflow for data cleaning, exploratory data analysis (EDA), and visualization to uncover geographic disparities in poverty.
 
-##Project Motivation
+## Project Motivation
 
 Statewide averages often mask significant regional differences in economic well-being. By analyzing poverty data at the county level, we can identify geographic patterns and highlight communities that may experience disproportionately high poverty rates.
 
 This project demonstrates how data analysis and visualization can help uncover socioeconomic trends and support data-driven decision making.
 
-##Key Questions
+## Key Questions
 
 This analysis aims to answer several questions:
 
@@ -20,7 +20,7 @@ How large is the variation in poverty across counties?
 
 Are there identifiable regional patterns in poverty distribution?
 
-##Tools & Technologies
+## Tools & Technologies
 
 The analysis was conducted using the following tools:
 
@@ -31,9 +31,9 @@ Matplotlib / Seaborn	Data visualization
 Jupyter Notebook	Interactive data analysis
 Git & GitHub	Version control and project sharing
 
-#Project Workflow
+# Project Workflow
 
-##1. Data Collection
+## 1. Data Collection
 
 County-level socioeconomic data was collected from publicly available sources containing poverty-related indicators.
 
@@ -49,7 +49,7 @@ Median Household Income
 
 Other socioeconomic indicators
 
-##2. Data Cleaning
+## 2. Data Cleaning
 
 Before analysis, the dataset was prepared through:
 
@@ -63,7 +63,7 @@ Removing duplicate records
 
 Clean data ensures reliable and reproducible analysis.
 
-##3. Exploratory Data Analysis (EDA)
+## 3. Exploratory Data Analysis (EDA)
 
 EDA was performed to understand patterns and distributions within the dataset.
 
@@ -77,7 +77,7 @@ Comparing poverty rates across counties
 
 Investigating potential economic disparities
 
-##4. Data Visualization
+## 4. Data Visualization
 
 Visualizations were created to make the results easier to interpret.
 
@@ -118,7 +118,7 @@ North-Carolina_County_Level_Poverty_Analysis
 ├── README.md
 └── requirements.txt
 
-#How to Run the Project
+# How to Run the Project
 
 Clone the repository
 git clone https://github.com/Wabdulla04/North-Carolina_County_Level_Poverty_Analysis.git
