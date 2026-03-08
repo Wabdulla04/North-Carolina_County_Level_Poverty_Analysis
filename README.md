@@ -81,13 +81,17 @@ Investigating potential economic disparities
 
 Visualizations were created to make the results easier to interpret.
 
-Examples include:
+Positive Correlation between logged SNAP Recipients and logged Civilians in Poverty in North Carolina
 
-County poverty rate comparisons
+<img width="480" height="342" alt="image" src="https://github.com/user-attachments/assets/d1fbb6f7-f849-415f-8d14-b07b69fe4c3f" />
 
-Distribution plots of poverty levels
+SNAP Recipients
 
-Bar charts highlighting counties with the highest poverty
+<img width="480" height="342" alt="image" src="https://github.com/user-attachments/assets/fd83fb32-3109-45d8-b4e0-08662457d59f" />
+
+Line charts highlighting counties with the highest poverty
+
+<img width="480" height="342" alt="image" src="https://github.com/user-attachments/assets/233d361c-ca47-4778-8b56-6ea1b4d69b1d" />
 
 Visualizations help communicate insights clearly and effectively.
 
@@ -103,20 +107,6 @@ Lower poverty rates in more economically developed regions
 
 These insights highlight how geographic context plays a major role in economic inequality.
 
-Repository Structure
-North-Carolina_County_Level_Poverty_Analysis
-│
-├── data
-│   └── poverty_dataset.csv
-│
-├── notebooks
-│   └── poverty_analysis.ipynb
-│
-├── images
-│   └── visualizations
-│
-├── README.md
-└── requirements.txt
 
 # How to Run the Project
 
@@ -132,7 +122,7 @@ Launch Jupyter and open the analysis notebook:
 
 jupyter notebook
 
-#Potential Future Improvements
+# Potential Future Improvements
 
 Several extensions could make the analysis more powerful:
 
@@ -146,7 +136,7 @@ Incorporating multiple years of poverty data for trend analysis
 
 Creating an automated data pipeline
 
-Author
+# Author
 
 Waleed Abdulla
 
