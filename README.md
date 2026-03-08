@@ -77,9 +77,35 @@ Comparing poverty rates across counties
 
 Investigating potential economic disparities
 
-## 4. Data Visualization
+## 4. Data Visualization & Forecasting
 
-Visualizations were created to make the results easier to interpret.
+To better understand historical poverty trends and potential future outcomes, several **time series forecasting models** were applied to the data.
+
+The models evaluated include:
+
+- **ARIMA** (AutoRegressive Integrated Moving Average)
+- **Holt’s Linear Trend Method**
+- **Holt’s Method with No Damping**
+- **Simple Exponential Smoothing (SES)**
+- **Naïve Forecast**
+- **Mean Forecast**
+
+Each model produces predictions along with **80% and 95% confidence intervals**, allowing us to visualize uncertainty in future poverty estimates.
+
+### Forecast Comparison
+
+<img width="944" height="584" alt="image" src="https://github.com/user-attachments/assets/f0c6e21a-a446-4847-b5ae-b916dc1ec513" />
+
+This visualization compares forecasts generated from multiple models. The shaded regions represent prediction intervals, illustrating the range of potential future poverty values based on historical trends.
+
+Comparing multiple forecasting approaches helps evaluate:
+
+- Trend continuation
+- Forecast stability
+- Model uncertainty
+- Sensitivity to recent observations
+
+Visualizations were also created to make the results easier to interpret.
 
 Positive Correlation between logged SNAP Recipients and logged Civilians in Poverty in North Carolina
 
@@ -107,20 +133,12 @@ Lower poverty rates in more economically developed regions
 
 These insights highlight how geographic context plays a major role in economic inequality.
 
+## Example Forecast Output
 
-# How to Run the Project
 
-Clone the repository
-git clone https://github.com/Wabdulla04/North-Carolina_County_Level_Poverty_Analysis.git
-Navigate into the project directory
-cd North-Carolina_County_Level_Poverty_Analysis
-Install dependencies
-pip install -r requirements.txt
-Run the notebook
+Forecast for the Five Counties with the Highest Percentage Poverty Increase over the Next Five Years
 
-Launch Jupyter and open the analysis notebook:
-
-jupyter notebook
+<img width="944" height="584" alt="image" src="https://github.com/user-attachments/assets/cb5696ba-0242-4931-b86b-9534cfd4a0b6" />
 
 # Potential Future Improvements
 
